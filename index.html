@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.backtrack.com</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typed.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+
+</head>
+<body>
+<!-- 	<section id="home">
+		<center><img class="img-responsive logo" src="media/logo.png">
+			<center><p class="poweron">POWER ON TO CONTINUE.</p> </center>
+
+			<center><a id="power"><img class="img-responsive power"src="media/power.png"></a></center>
+
+			<center><img class="img-responsive count5 wow fadeOut" data-wow-delay="0.7s" src="media/5.png"></center>
+			<center><img class="img-responsive count4 wow fadeOut" data-wow-delay="0.7s" src="media/4.png"></center>
+			<center><img class="img-responsive count3 wow fadeOut" data-wow-delay="0.7s" src="media/3.png"></center>
+			<center><img class="img-responsive count2 wow fadeOut" data-wow-delay="0.7s" src="media/2.png"></center>
+			<center><img class="img-responsive count1 wow fadeOut" data-wow-delay="0.7s" src="media/1.png"></center>
+
+		<div id="welcome">
+		</div>
+
+<div class="navigation" onmouseover="loop()">
+<svg xmlns="http://www.w3.org/2000/svg">
+ <path fill="#fff" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path>
+</svg>
+<div class="arrdown">
+	<svg  xmlns="http://www.w3.org/2000/svg">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#101010" d="M7,5.6l3.9-4.3c0.4-0.4,1-0.4,1.4,0l0.4,0.4c0.4,0.4,0.4,1.1,0,1.6l-4.6,5c0,0,0,0,0,0L7.7,8.7C7.5,8.9,7.3,9,7,9C6.8,9,6.5,8.9,6.3,8.7L5.9,8.3c0,0,0,0,0,0l-4.6-5c-0.4-0.4-0.4-1.1,0-1.6l0.4-0.4c0.4-0.4,1-0.4,1.4,0L7,5.6z">	
+	</path>
+</svg>
+</div>	
+
+</div>
+
+		</section> -->
+ <section id="about">
+ 		<div class="row">
+			<div class="about col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<center><h1 id="abb">About</h1></center>
+				<div class="dj col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+				</div>
+				<div class="imgholder col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					
+				</div>
+				<div class="fan col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				
+				</div>
+
+			</div>
+			
+
+			<div class="skills col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				
+			</div>
+
+
+
+ 		</div>
+</section>
+
+</body>
+
+</html>
+<script>
+
+	$(document).ready(function(){
+
+		$("#power").click(function(){
+
+			$(".poweron").delay(500).fadeOut();
+			$("#power").delay(500).fadeOut();
+			$(".count5").delay(1300).fadeIn();
+			$(".count4").delay(2600).fadeIn();
+			$(".count3").delay(3900).fadeIn();
+			$(".count2").delay(5200).fadeIn();
+			$(".count1").delay(6400).fadeIn();
+			$("#welcome").delay(8200).fadeIn();	
+			$(".navigation").delay(11000).fadeIn();	
+			})
+
+		$(".navigation").click(function(){
+
+			$("#home").delay(1000).fadeOut();
+			$("#about").delay(1600).fadeIn();
+
+		})
+
+
+
+})
+</script>
+
+
+<!-- onmouseover="document.getElementById('dj').style.width='70%'" -->
+
+	<!-- <div class="fan col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<center><h1 id="abb">About</h1></center>
+
+		<center><div class="imgholder">	
+	</div></center>
+
+	<div class="dj">
+		<center><h1>DJ.</h1><hr></center>
+	</div>
+
+		<div class="fann">
+		<center><h1>FAN.</h1><hr></center>
+	</div>
+
+	<center><div id="reasons">
+		<div class="reasonsdj">
+			
+		</div>
+		<div class="reasonsfan">
+			
+		</div>
+	</div></center>
+</div> -->
